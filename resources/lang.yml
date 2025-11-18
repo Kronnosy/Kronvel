@@ -1,0 +1,32 @@
+exp-gain: "§8✦ §6+{amount} EXP §8(§b x{multiplier}§8)"
+level-up:
+  title: "§8┏━§6§l✦ LEVEL UP! ✦"
+  line: "§6✦ §bLevel {old} §7-> §b{new}"
+  reached: "§8┗━§6✦ §aYou reached Level {new}!"
+card:
+  self:
+    header: "§8┏━━━━━━ §6Your Level §8━━━━━━┓"
+    level: "§6  ✦ Level: §b{level}"
+    exp: "§6  ✦ EXP: §b{exp} §6/ §b{total} §6(§b{toNext} §6to next level)"
+    footer: "§8┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+  other:
+    header: "§8┏━━━━━━ §6{name}'s Level §8━━━━━━┓"
+    level: "§6  ✦ Level: §b{level}"
+    exp: "§6  ✦ EXP: §b{exp} §6/ §b{total} §6(§b{toNext} §6to next level)"
+    footer: "§8┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+error:
+  no-permission: "§cYou do not have permission to use this command."
+  ingame-only: "§cThis command can only be used in-game."
+  player-not-found: "§cPlayer not found or not online."
+  amount-positive: "§cAmount must be a positive integer."
+  level-positive: "§cLevel must be a positive integer."
+  amount-max: "§cAmount too large. Maximum allowed is {max}."
+  level-max: "§cLevel too large. Maximum allowed is {max}."
+usage:
+  kexp-root: "§eUsage: /kexp <add|setlevel|info> ..."
+  kexp-add: "§eUsage: /kexp add <player> <amount>"
+  kexp-setlevel: "§eUsage: /kexp setlevel <player> <level>"
+  kexp-info: "§eUsage: /kexp info <player>"
+success:
+  kexp-add: "§aAdded {amount} EXP to {name}."
+  kexp-setlevel: "§aSet level of {name} to {level}."

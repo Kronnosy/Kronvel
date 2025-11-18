@@ -1,0 +1,14 @@
+name: Kronvel
+main: Kronvel\Main
+version: 0.1-beta
+api: 5.0.0
+author: Kronnosy
+description: Configurable leveling system with EXP, rank multipliers, and SQLite storage.
+
+permissions:
+  kronvel.cmd.level:
+    description: Allows a player to check their own level and EXP.
+    default: true
+  kronvel.cmd.kexp:
+    description: Allows a player to manage other players' level and EXP.
+    default: op

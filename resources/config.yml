@@ -1,0 +1,17 @@
+leveling:
+  base-exp: 100
+  exp-step: 25
+blocks:
+  "diamond_ore": 50
+  "stone": 1
+entities:
+  "minecraft:zombie": 30
+multipliers:
+  "kronvel.multiplier.vip": 1.5
+  "kronvel.multiplier.mvp": 2.0
+messages:
+  popup-enabled: true
+security:
+  max-add-amount: 100000
+  max-setlevel: 9999
+  max-multiplier: 10.0
